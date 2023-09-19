@@ -1,0 +1,87 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 40px;
+}
+
+table {
+    border-collapse: separate;
+    table-layout:fixed;
+    width: 1900px;
+}
+
+
+td {
+    border-radius: 10px;
+    height: 90px;
+}
+
+
+h5 {
+    text-align: end;
+    font-weight: lighter;
+    margin: 1px;
+}
+
+h4 {
+    font-weight: lighter;
+    margin: 1px;
+}
+
+h3 {
+    margin: 1px;
+}
+
+.naometais {
+    background-color: rgb(233, 72, 72);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.gasesnobres {
+    background-color: rgb(223, 63, 175);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.metaisalcalinos {
+    background-color: rgb(223, 132, 63);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.metalcterrosos {
+    background-color: rgb(241, 239, 64);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.semimetais {
+    background-color: rgba(45, 73, 214, 0.956);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.halogenios {
+    background-color: rgb(151, 45, 212);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.metrepresentativos {
+    background-color: rgb(74, 222, 251);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.metaltransicao {
+    background-color: rgb(72, 208, 81);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.lantanideos {
+    background-color: rgb(198, 152, 238);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.actinideos {
+    background-color: rgb(245, 120, 213);
+    border: 2px solid rgb(0, 0, 0);
+}
