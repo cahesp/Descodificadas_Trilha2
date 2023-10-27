@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="Imagens\symbol.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+<section class="topnav">
+    <div class="logo">
+        <img src="Imagens/Logo_final.png" alt="Logo_artsforadacaixinha" height="110">
+    </div>
+    <div class="links">
+            <a href="index_artsforadacaixinha.html">Página inicial</a>
+            <a href="index_artsforadacaixinha_historia.html">Nossa História</a>
+            <a href="index_artsforadacaixinha_contato.html">Contato</a>
+    </div>
+</section>
+<section class="artigo">
+    <h1>Fale conosco</h1>
+    <p class="paragrafos">Para orçamentos e maiores informações nos chame no <a href="https://www.instagram.com/invites/contact/?i=1jd3ztjpkqxsn&utm_content=4dvv17t" target="_blank">direct do Instagram</a> ou deixe uma mensagem abaixo.
+    </p>
+    <div class="form">
+        <form>
+            <label for="username">Nome*</label>
+            <input class="text" type="text" name="user_name" placeholder="Nome completo" required/>
+            <label for="usermail">E-mail*</label>
+            <input class="text" type="email" name="user_mail" placeholder="Digite seu e-mail aqui" required/>
+            <label for="usertel">Telefone com DDD</label>
+            <input class="text" type="tel" name="user_tel" placeholder="(xx) xxxxxxxxx"/>
+            <label for="opinion">Deseja receber nossas novidades?</label>
+            <br><br>
+            <input type="radio" name="opinion1">Sim
+            <br> 
+            <input type="radio" name="opinion2">Não
+            <br><br>
+            <label for="mensagem">Deixe sua mensagem:</label>
+            <textarea class="text2" name="mensagem" placeholder="Deixe aqui sua mensagem*" required></textarea>
+            <button class="button2" onclick="mensagemEnviada()">Enviar</button>
+        </form>
+    </div>
+</section>
+<section class="footer">
+    <p>Criado por Camila Oliveira &copy; 2023</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts Fora da Caixinha</title>
+    <link rel="shortcut icon" href="Imagens\symbol.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+<section class="topnav">
+    <div class="logo">
+        <img src="Imagens/Logo_final.png" alt="Logo_artsforadacaixinha" height="110">
+    </div>
+    <div class="links">
+            <a href="index_artsforadacaixinha.html">Página inicial</a>
+            <a href="index_artsforadacaixinha_historia.html">Nossa História</a>
+            <a href="index_artsforadacaixinha_contato.html">Contato</a>
+    </div>
+</section>
+
+<section class="header">
+     <p></p>    
+</section>
+
+<section class="artigo">
+    <h1>Algumas de nossas peças</h1>
+    <h4>Uma variedade de artesanatos em crochê para deixar sua casa e seus dias mais alegres!</h4>
+        <div class="gallery" onclick="alerta()" focus="alerta()">
+            <div class="dino">
+                <img src="Imagens\rainbowdinos.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">            
+                <p class="descr">Rainbow Dinos</p>
+            </div>
+            <div class="slcropped">
+                <img src="Imagens/slimcropped.jpeg" alt="Slim Cropped" width="400" height="400">
+                <p class="descr">Slim Cropped</p>
+            </div>
+            <div class="penguino">
+                <img src="Imagens/penguino.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">
+                <p class="descr">Penguino</p>
+            </div>
+            <div class="croppedbt">
+                <img src="Imagens/croppedbotao.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">
+                <p class="descr">Cropped botões</p>
+            </div>
+        </div>
+    <p class="paragrafos">Entre em <a href="index_artsforadacaixinha_contato.html">contato</a> e faça já sua encomenda</p>  
+</section>
+
+<section class="artigo">
+    <h1>Aprenda a arte do crochê você também!</h1>
+    <p class="paragrafos">Se inscreva no nosso canal no <a href="https://www.youtube.com/@Artsforadacaixinha/featured" target="_blank">YouTube</a> para essas e outras dicas.</p>
+    <div class="video">
+        <iframe width="760" height="515" src="https://www.youtube.com/embed/aE9fnDAIfvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="artigo">
+    <h1>Do It Yourself</h1>
+    <p class="paragrafos">Rainbow Dinos Free Patern: Passo a passo sem complicação</p>
+
+    <div class="slideshow">
+                 
+        <div class="slides fade">
+            <img src="Imagens\rainbowdinos.jpeg" alt="Free Patern page1">
+        </div>
+        
+        <div class="slides fade">
+            <img src="Imagens\patterncapa.png" alt="Free Patern capa">
+         </div>
+
+        <div class="slides fade">
+            <img src="Imagens\patternp1.png" alt="Amigurumi Rainbow Dinos">
+        </div>       
+
+        <a class="anterior" onclick="plusSlides(-1)">❮</a>
+        <a class="proximo" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div style="text-align:center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <p class="paragrafos">Baixe nossa receita gratuita e faça seu próprio amigurumi!</p>
+    <p class="paragrafos">Preencha o formulário e baixe grátis</p>
+
+<!--Formulário-->
+    <div class="form">
+        <form>
+            <h1>Formulário</h1>
+            <p class="paragrafos">Após o preenchimento, a receita será enviada diretamente para seu e-mail</p>
+            <label for="username">Nome*</label>
+            <input class="text" type="text" name="user_name" placeholder="Nome completo" required/>
+            <label for="usermail">E-mail*</label>
+            <input class="text" type="email" name="user_mail" placeholder="Digite seu e-mail aqui" required/>
+            <label for="usertel">Telefone com DDD</label>
+            <input class="text" type="tel" name="user_tel" placeholder="(xx) xxxxxxxxx"/>
+            <label for="opinion">Deseja receber nossas novidades?</label>
+            <br><br>
+            <input type="radio" name="opinion1">Sim
+            <br> 
+            <input type="radio" name="opinion2">Não 
+            <br>
+            <button class="button" onclick="formularioPreenchido()">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<section class="artigo">
+    <h1>Onde nos encontrar</h1>
+    <div class="icon">
+        <a href="https://www.instagram.com/invites/contact/?i=1jd3ztjpkqxsn&utm_content=4dvv17t" target="_blank"><img src="Imagens\instaicon.png" class="media-object" alt="Instagram Icon" width="40"></a>
+        <a href="https://wa.me/qr/W733DOJY3FPOG1" target="_blank"><img src="Imagens\wappicon.png" class="media-object" alt="WhatsApp Icon" width="40"></a>
+    </div>
+    <h4>Feira de artesanatos</h4>
+    <p class="paragrafos">Parque Max Feffer - Suzano, SP</p>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.260922374304!2d-46.3305109735081!3d-23.530156155172296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7a5ed576d52d%3A0x9a6f4a6a18b6dc36!2sParque%20Max%20Feffer%20-%20Jardim%20Imperador%2C%20Suzano%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1679945176601!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section class="footer">
+    <p>Criado por Camila Oliveira &copy; 2023</p>
+</section>
+</body>
+</html>
